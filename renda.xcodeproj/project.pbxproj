@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC81CBC1B69A66E00B4502B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC81CBB1B69A66E00B4502B /* AppDelegate.swift */; };
+		ACC81CBE1B69A66E00B4502B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC81CBD1B69A66E00B4502B /* ViewController.swift */; };
+		ACC81CC11B69A66E00B4502B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC81CBF1B69A66E00B4502B /* Main.storyboard */; };
+		ACC81CC31B69A66E00B4502B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC81CC21B69A66E00B4502B /* Images.xcassets */; };
+		ACC81CC61B69A66E00B4502B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACC81CC41B69A66E00B4502B /* LaunchScreen.xib */; };
+		ACC81CD21B69A66E00B4502B /* rendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC81CD11B69A66E00B4502B /* rendaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACC81CCC1B69A66E00B4502B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC81CAE1B69A66E00B4502B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC81CB51B69A66E00B4502B;
+			remoteInfo = renda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACC81CB61B69A66E00B4502B /* renda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = renda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC81CBA1B69A66E00B4502B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC81CBB1B69A66E00B4502B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACC81CBD1B69A66E00B4502B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACC81CC01B69A66E00B4502B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC81CC21B69A66E00B4502B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACC81CC51B69A66E00B4502B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ACC81CCB1B69A66E00B4502B /* rendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC81CD01B69A66E00B4502B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC81CD11B69A66E00B4502B /* rendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rendaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC81CB31B69A66E00B4502B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC81CC81B69A66E00B4502B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC81CAD1B69A66E00B4502B = {
+			isa = PBXGroup;
+			children = (
+				ACC81CB81B69A66E00B4502B /* renda */,
+				ACC81CCE1B69A66E00B4502B /* rendaTests */,
+				ACC81CB71B69A66E00B4502B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC81CB71B69A66E00B4502B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC81CB61B69A66E00B4502B /* renda.app */,
+				ACC81CCB1B69A66E00B4502B /* rendaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC81CB81B69A66E00B4502B /* renda */ = {
+			isa = PBXGroup;
+			children = (
+				ACC81CBB1B69A66E00B4502B /* AppDelegate.swift */,
+				ACC81CBD1B69A66E00B4502B /* ViewController.swift */,
+				ACC81CBF1B69A66E00B4502B /* Main.storyboard */,
+				ACC81CC21B69A66E00B4502B /* Images.xcassets */,
+				ACC81CC41B69A66E00B4502B /* LaunchScreen.xib */,
+				ACC81CB91B69A66E00B4502B /* Supporting Files */,
+			);
+			path = renda;
+			sourceTree = "<group>";
+		};
+		ACC81CB91B69A66E00B4502B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACC81CBA1B69A66E00B4502B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACC81CCE1B69A66E00B4502B /* rendaTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC81CD11B69A66E00B4502B /* rendaTests.swift */,
+				ACC81CCF1B69A66E00B4502B /* Supporting Files */,
+			);
+			path = rendaTests;
+			sourceTree = "<group>";
+		};
+		ACC81CCF1B69A66E00B4502B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACC81CD01B69A66E00B4502B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC81CB51B69A66E00B4502B /* renda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC81CD51B69A66E00B4502B /* Build configuration list for PBXNativeTarget "renda" */;
+			buildPhases = (
+				ACC81CB21B69A66E00B4502B /* Sources */,
+				ACC81CB31B69A66E00B4502B /* Frameworks */,
+				ACC81CB41B69A66E00B4502B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = renda;
+			productName = renda;
+			productReference = ACC81CB61B69A66E00B4502B /* renda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACC81CCA1B69A66E00B4502B /* rendaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC81CD81B69A66E00B4502B /* Build configuration list for PBXNativeTarget "rendaTests" */;
+			buildPhases = (
+				ACC81CC71B69A66E00B4502B /* Sources */,
+				ACC81CC81B69A66E00B4502B /* Frameworks */,
+				ACC81CC91B69A66E00B4502B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC81CCD1B69A66E00B4502B /* PBXTargetDependency */,
+			);
+			name = rendaTests;
+			productName = rendaTests;
+			productReference = ACC81CCB1B69A66E00B4502B /* rendaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC81CAE1B69A66E00B4502B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = heiwa;
+				TargetAttributes = {
+					ACC81CB51B69A66E00B4502B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					ACC81CCA1B69A66E00B4502B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = ACC81CB51B69A66E00B4502B;
+					};
+				};
+			};
+			buildConfigurationList = ACC81CB11B69A66E00B4502B /* Build configuration list for PBXProject "renda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC81CAD1B69A66E00B4502B;
+			productRefGroup = ACC81CB71B69A66E00B4502B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC81CB51B69A66E00B4502B /* renda */,
+				ACC81CCA1B69A66E00B4502B /* rendaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC81CB41B69A66E00B4502B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC81CC11B69A66E00B4502B /* Main.storyboard in Resources */,
+				ACC81CC61B69A66E00B4502B /* LaunchScreen.xib in Resources */,
+				ACC81CC31B69A66E00B4502B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC81CC91B69A66E00B4502B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC81CB21B69A66E00B4502B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC81CBE1B69A66E00B4502B /* ViewController.swift in Sources */,
+				ACC81CBC1B69A66E00B4502B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC81CC71B69A66E00B4502B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC81CD21B69A66E00B4502B /* rendaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC81CCD1B69A66E00B4502B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC81CB51B69A66E00B4502B /* renda */;
+			targetProxy = ACC81CCC1B69A66E00B4502B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACC81CBF1B69A66E00B4502B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC81CC01B69A66E00B4502B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC81CC41B69A66E00B4502B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC81CC51B69A66E00B4502B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC81CD31B69A66E00B4502B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC81CD41B69A66E00B4502B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC81CD61B69A66E00B4502B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = renda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACC81CD71B69A66E00B4502B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = renda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACC81CD91B69A66E00B4502B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rendaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/renda.app/renda";
+			};
+			name = Debug;
+		};
+		ACC81CDA1B69A66E00B4502B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rendaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/renda.app/renda";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC81CB11B69A66E00B4502B /* Build configuration list for PBXProject "renda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC81CD31B69A66E00B4502B /* Debug */,
+				ACC81CD41B69A66E00B4502B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC81CD51B69A66E00B4502B /* Build configuration list for PBXNativeTarget "renda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC81CD61B69A66E00B4502B /* Debug */,
+				ACC81CD71B69A66E00B4502B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACC81CD81B69A66E00B4502B /* Build configuration list for PBXNativeTarget "rendaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC81CD91B69A66E00B4502B /* Debug */,
+				ACC81CDA1B69A66E00B4502B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC81CAE1B69A66E00B4502B /* Project object */;
+}
