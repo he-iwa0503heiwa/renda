@@ -12,10 +12,16 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var score1: Int?
+    var score2: Int?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let storyboard: UIStoryboard = StoryboardHelper.adjust()
+        window!.rootViewController = storyboard.instantiateInitialViewController() as? UIViewController
+        self.window?.makeKeyAndVisible()
         return true
     }
 
