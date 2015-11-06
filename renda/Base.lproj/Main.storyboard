@@ -184,7 +184,7 @@ AとBの連打数を競うゲームです。</string>
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXW-JZ-Cir">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXW-JZ-Cir">
                                 <rect key="frame" x="32" y="20" width="68" height="31"/>
                                 <fontDescription key="fontDescription" name="BodoniOrnamentsITCTT" family="Bodoni Ornaments" pointSize="30"/>
                                 <state key="normal" title="戻る">
@@ -195,43 +195,43 @@ AとBの連打数を競うゲームです。</string>
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="V8n-Oh-XpK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="○" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hh9-hM-70C">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="○" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hh9-hM-70C">
                                 <rect key="frame" x="32" y="84" width="281" height="269"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="288"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="○" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlt-bd-dZN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="○" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlt-bd-dZN">
                                 <rect key="frame" x="360" y="84" width="281" height="269"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="288"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNN-mu-qPC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNN-mu-qPC">
                                 <rect key="frame" x="402" y="166" width="207" height="167"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="140"/>
                                 <color key="textColor" red="0.16105678209999999" green="0.23203045310000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qcf-nN-Dbg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qcf-nN-Dbg">
                                 <rect key="frame" x="60" y="166" width="231" height="167"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="140"/>
                                 <color key="textColor" red="1" green="0.052114657240000001" blue="0.13600287629999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="スコア" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTa-ST-eT6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="スコア" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTa-ST-eT6">
                                 <rect key="frame" x="124" y="113" width="103" height="51"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <color key="textColor" red="1" green="0.052114657240000001" blue="0.13600287629999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWK-qt-jpZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWK-qt-jpZ">
                                 <rect key="frame" x="205" y="12" width="257" height="93"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="70"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="スコア" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcc-VU-2rT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="スコア" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcc-VU-2rT">
                                 <rect key="frame" x="453" y="116" width="104" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <color key="textColor" red="0.16105678209999999" green="0.23203045310000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -239,25 +239,6 @@ AとBの連打数を競うゲームです。</string>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="qcc-VU-2rT" secondAttribute="trailing" constant="94" id="0F0-h2-o1m"/>
-                            <constraint firstItem="rXV-sE-2Rz" firstAttribute="top" secondItem="TNN-mu-qPC" secondAttribute="bottom" constant="42" id="2Ly-Kg-bJ3"/>
-                            <constraint firstItem="TNN-mu-qPC" firstAttribute="top" secondItem="qcc-VU-2rT" secondAttribute="bottom" constant="5" id="41R-qb-I2a"/>
-                            <constraint firstItem="Qcf-nN-Dbg" firstAttribute="top" secondItem="uTa-ST-eT6" secondAttribute="bottom" constant="2" id="7yl-9E-W1l"/>
-                            <constraint firstItem="KXW-JZ-Cir" firstAttribute="leading" secondItem="6Tp-2s-ixG" secondAttribute="leadingMargin" constant="16" id="8f8-jZ-ipD"/>
-                            <constraint firstItem="hh9-hM-70C" firstAttribute="leading" secondItem="6Tp-2s-ixG" secondAttribute="leadingMargin" constant="16" id="9Zh-F6-f0z"/>
-                            <constraint firstAttribute="centerX" secondItem="bWK-qt-jpZ" secondAttribute="centerX" id="A2A-iw-p2G"/>
-                            <constraint firstItem="KXW-JZ-Cir" firstAttribute="leading" secondItem="6Tp-2s-ixG" secondAttribute="leadingMargin" constant="16" id="BgE-BQ-hu0"/>
-                            <constraint firstItem="rXV-sE-2Rz" firstAttribute="top" secondItem="Qcf-nN-Dbg" secondAttribute="bottom" constant="42" id="BlM-fq-62c"/>
-                            <constraint firstItem="KXW-JZ-Cir" firstAttribute="top" secondItem="lCJ-98-nDQ" secondAttribute="bottom" id="EfS-lI-Cwg"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Vlt-bd-dZN" secondAttribute="trailing" constant="10" id="HCY-GQ-44p"/>
-                            <constraint firstItem="rXV-sE-2Rz" firstAttribute="top" secondItem="hh9-hM-70C" secondAttribute="bottom" constant="22" id="JDa-MQ-onk"/>
-                            <constraint firstItem="KXW-JZ-Cir" firstAttribute="top" secondItem="lCJ-98-nDQ" secondAttribute="bottom" id="M9m-hl-xRH"/>
-                            <constraint firstItem="rXV-sE-2Rz" firstAttribute="top" secondItem="Vlt-bd-dZN" secondAttribute="bottom" constant="22" id="ODH-B9-c1E"/>
-                            <constraint firstItem="Qcf-nN-Dbg" firstAttribute="leading" secondItem="6Tp-2s-ixG" secondAttribute="leadingMargin" constant="44" id="TJ7-CB-OqX"/>
-                            <constraint firstItem="uTa-ST-eT6" firstAttribute="leading" secondItem="6Tp-2s-ixG" secondAttribute="leadingMargin" constant="108" id="ndN-dQ-6y6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="TNN-mu-qPC" secondAttribute="trailing" constant="42" id="uNw-f1-SId"/>
-                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
