@@ -10,7 +10,7 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
-     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate //AppDelegateのインスタンスを取得
+     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate //AppDelegateのインスタンスを取得
     
     @IBOutlet var resultLabel : UILabel!
     @IBOutlet var scoreALabel : UILabel!
@@ -36,7 +36,7 @@ class ResultViewController: UIViewController {
         
         
         
-        var animation = CABasicAnimation(keyPath: "transform")
+        let animation = CABasicAnimation(keyPath: "transform")
         animation.fromValue = NSNumber(double: 0)
         animation.toValue = NSNumber(double: 2 * M_PI)
         animation.valueFunction = CAValueFunction(name: kCAValueFunctionRotateZ)
@@ -48,19 +48,19 @@ class ResultViewController: UIViewController {
         //判定
         if scoreA < scoreB {
             //Bの勝ち
-            println("B　WIN")
+            print("B　WIN")
             resultLabel.text = "B　WIN"
             maruA.hidden = true
             maruB.hidden = false
         }else if scoreA > scoreB {
             //Aの勝ち
-            println("A　WIN")
+            print("A　WIN")
             resultLabel.text = "A　WIN"
             maruB.hidden = true
             maruA.hidden = false
         }else{
             //同点
-            println("同点")
+            print("同点")
             resultLabel.text = "同点"
         }
         
